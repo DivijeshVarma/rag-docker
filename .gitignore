@@ -1,1 +1,11 @@
-".env"
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env*
+!example.env  # (optional) keep a template version
+
+# Docker
+*.log
+*.pid
