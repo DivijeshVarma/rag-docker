@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rag_docker_1763390680173-pr-trigger-input-set
+  identifier: Build_rag_docker_1763390680173prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: divi
+  pipeline:
+    identifier: Build_rag_docker_1763390680173
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
