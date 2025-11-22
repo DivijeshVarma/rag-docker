@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rag_docker_1763787032928-pr-trigger-input-set
+  identifier: Build_rag_docker_1763787032928prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Rag_Project
+  pipeline:
+    identifier: Build_rag_docker_1763787032928
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
