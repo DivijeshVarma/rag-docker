@@ -30,7 +30,7 @@ ENV PIP_ROOT_USER_ACTION=ignore \
 RUN pip install --upgrade pip && \
     pip install --user -r requirements.txt
 
-==================================
+# ==================================
 # Stage 2: Runtime (Minimal)
 # ================================
 FROM python:3.13-alpine
