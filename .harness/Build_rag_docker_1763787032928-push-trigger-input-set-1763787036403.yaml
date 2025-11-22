@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rag_docker_1763787032928-push-trigger-input-set
+  identifier: Build_rag_docker_1763787032928pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Rag_Project
+  pipeline:
+    identifier: Build_rag_docker_1763787032928
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
